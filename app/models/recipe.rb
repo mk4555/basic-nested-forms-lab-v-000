@@ -3,5 +3,6 @@ class Recipe < ActiveRecord::Base
   accepts_nested_attributes_for :ingredients
 
   def ingredients_attributes
+    
   end
 end
